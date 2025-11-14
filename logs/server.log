@@ -1,0 +1,22 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [160] using StatReload
+INFO:     Started server process [162]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:36372 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:36388 - "OPTIONS /dashboard/stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36404 - "OPTIONS /dashboard/stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36404 - "GET /dashboard/stats HTTP/1.1" 403 Forbidden
+INFO:     172.20.0.1:36404 - "GET /dashboard/stats HTTP/1.1" 403 Forbidden
+INFO:     172.20.0.1:36416 - "GET /dashboard/stats HTTP/1.1" 403 Forbidden
+INFO:     172.20.0.1:36416 - "GET /dashboard/stats HTTP/1.1" 403 Forbidden
+INFO:     172.20.0.1:54818 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54820 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54820 - "GET / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54820 - "GET / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54818 - "OPTIONS /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54818 - "GET /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54820 - "GET /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54826 - "GET /dashboard/stats HTTP/1.1" 403 Forbidden
+INFO:     172.20.0.1:54826 - "GET /dashboard/stats HTTP/1.1" 403 Forbidden
